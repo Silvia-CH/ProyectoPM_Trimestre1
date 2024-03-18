@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tablero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="clickCard"
+        android:padding="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/img_R1_C1"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back"/>
+
+            <ImageButton
+                android:id="@+id/img_R1_C2"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R1_C3"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_height="181dp">
+
+            <ImageButton
+                android:id="@+id/img_R2_C1"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R2_C2"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R2_C3"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+        </TableRow>
+
+        <TableRow android:id="@+id/row3">
+
+            <ImageButton
+                android:id="@+id/img_R3_C1"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R3_C2"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R3_C3"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img_R4_C1"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R4_C2"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/img_R4_C3"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/card_back"
+                android:onClick="clickCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/card_back"
+                android:tag="@drawable/card_back" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
